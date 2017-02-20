@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<string.h>
 
-#define CONFIG_PATH "./50-dns-add.conf"
+#define CONFIG_PATH "/etc/dnsmasq.d/50-dns-add.conf"
 #define COPY_CONFIG_PATH "CONFIG_PATH.temp"
 
 int main(int argc, char *argv[])
